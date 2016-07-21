@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43192C31D407FBF0044029B /* NSDictionary+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192AC1D407FBF0044029B /* NSDictionary+ObjectMapper.m */; };
+		E43192C41D407FBF0044029B /* NSObject+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192AE1D407FBF0044029B /* NSObject+ObjectMapper.m */; };
+		E43192C51D407FBF0044029B /* ManagedObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192B21D407FBF0044029B /* ManagedObjectInstanceProvider.m */; };
+		E43192C61D407FBF0044029B /* ObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192B41D407FBF0044029B /* ObjectInstanceProvider.m */; };
+		E43192C71D407FBF0044029B /* CommonLoggingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192B71D407FBF0044029B /* CommonLoggingProvider.m */; };
+		E43192C81D407FBF0044029B /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192BC1D407FBF0044029B /* InCodeMappingProvider.m */; };
+		E43192C91D407FBF0044029B /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192BF1D407FBF0044029B /* ObjectMapper.m */; };
+		E43192CA1D407FBF0044029B /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E43192C11D407FBF0044029B /* ObjectMappingInfo.m */; };
 		E4E6EB511D39ABE10036A89D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E6EB501D39ABE10036A89D /* main.m */; };
 		E4E6EB541D39ABE10036A89D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E6EB531D39ABE10036A89D /* AppDelegate.m */; };
 		E4E6EB571D39ABE10036A89D /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E6EB561D39ABE10036A89D /* Home.m */; };
@@ -21,6 +29,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43192AB1D407FBF0044029B /* NSDictionary+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectMapper.h"; sourceTree = "<group>"; };
+		E43192AC1D407FBF0044029B /* NSDictionary+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectMapper.m"; sourceTree = "<group>"; };
+		E43192AD1D407FBF0044029B /* NSObject+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMapper.h"; sourceTree = "<group>"; };
+		E43192AE1D407FBF0044029B /* NSObject+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMapper.m"; sourceTree = "<group>"; };
+		E43192B01D407FBF0044029B /* InstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceProvider.h; sourceTree = "<group>"; };
+		E43192B11D407FBF0044029B /* ManagedObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectInstanceProvider.h; sourceTree = "<group>"; };
+		E43192B21D407FBF0044029B /* ManagedObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectInstanceProvider.m; sourceTree = "<group>"; };
+		E43192B31D407FBF0044029B /* ObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInstanceProvider.h; sourceTree = "<group>"; };
+		E43192B41D407FBF0044029B /* ObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInstanceProvider.m; sourceTree = "<group>"; };
+		E43192B61D407FBF0044029B /* CommonLoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoggingProvider.h; sourceTree = "<group>"; };
+		E43192B71D407FBF0044029B /* CommonLoggingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoggingProvider.m; sourceTree = "<group>"; };
+		E43192B81D407FBF0044029B /* LoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingProvider.h; sourceTree = "<group>"; };
+		E43192BB1D407FBF0044029B /* InCodeMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InCodeMappingProvider.h; sourceTree = "<group>"; };
+		E43192BC1D407FBF0044029B /* InCodeMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InCodeMappingProvider.m; sourceTree = "<group>"; };
+		E43192BD1D407FBF0044029B /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		E43192BE1D407FBF0044029B /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		E43192BF1D407FBF0044029B /* ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMapper.m; sourceTree = "<group>"; };
+		E43192C01D407FBF0044029B /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
+		E43192C11D407FBF0044029B /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
+		E43192C21D407FBF0044029B /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
 		E4E6EB4C1D39ABE00036A89D /* webservices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webservices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E6EB501D39ABE10036A89D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4E6EB521D39ABE10036A89D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +81,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E43192A91D407FBF0044029B /* ocmapper */ = {
+			isa = PBXGroup;
+			children = (
+				E43192AA1D407FBF0044029B /* Categories */,
+				E43192AF1D407FBF0044029B /* Instance Provider */,
+				E43192B51D407FBF0044029B /* Logging Provider */,
+				E43192B91D407FBF0044029B /* Mapping Provider */,
+				E43192BE1D407FBF0044029B /* ObjectMapper.h */,
+				E43192BF1D407FBF0044029B /* ObjectMapper.m */,
+				E43192C01D407FBF0044029B /* ObjectMappingInfo.h */,
+				E43192C11D407FBF0044029B /* ObjectMappingInfo.m */,
+				E43192C21D407FBF0044029B /* OCMapper.h */,
+			);
+			path = ocmapper;
+			sourceTree = "<group>";
+		};
+		E43192AA1D407FBF0044029B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E43192AB1D407FBF0044029B /* NSDictionary+ObjectMapper.h */,
+				E43192AC1D407FBF0044029B /* NSDictionary+ObjectMapper.m */,
+				E43192AD1D407FBF0044029B /* NSObject+ObjectMapper.h */,
+				E43192AE1D407FBF0044029B /* NSObject+ObjectMapper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E43192AF1D407FBF0044029B /* Instance Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E43192B01D407FBF0044029B /* InstanceProvider.h */,
+				E43192B11D407FBF0044029B /* ManagedObjectInstanceProvider.h */,
+				E43192B21D407FBF0044029B /* ManagedObjectInstanceProvider.m */,
+				E43192B31D407FBF0044029B /* ObjectInstanceProvider.h */,
+				E43192B41D407FBF0044029B /* ObjectInstanceProvider.m */,
+			);
+			path = "Instance Provider";
+			sourceTree = "<group>";
+		};
+		E43192B51D407FBF0044029B /* Logging Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E43192B61D407FBF0044029B /* CommonLoggingProvider.h */,
+				E43192B71D407FBF0044029B /* CommonLoggingProvider.m */,
+				E43192B81D407FBF0044029B /* LoggingProvider.h */,
+			);
+			path = "Logging Provider";
+			sourceTree = "<group>";
+		};
+		E43192B91D407FBF0044029B /* Mapping Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E43192BA1D407FBF0044029B /* In Code Mapping */,
+				E43192BD1D407FBF0044029B /* MappingProvider.h */,
+			);
+			path = "Mapping Provider";
+			sourceTree = "<group>";
+		};
+		E43192BA1D407FBF0044029B /* In Code Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				E43192BB1D407FBF0044029B /* InCodeMappingProvider.h */,
+				E43192BC1D407FBF0044029B /* InCodeMappingProvider.m */,
+			);
+			path = "In Code Mapping";
+			sourceTree = "<group>";
+		};
 		E4E6EB431D39ABE00036A89D = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +217,7 @@
 		E4E6EB6B1D39AE690036A89D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E43192A91D407FBF0044029B /* ocmapper */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -200,10 +296,18 @@
 				E4E6EB771D39B04E0036A89D /* OCMapperConfig.m in Sources */,
 				E4E6EB571D39ABE10036A89D /* Home.m in Sources */,
 				E4E6EB541D39ABE10036A89D /* AppDelegate.m in Sources */,
+				E43192C51D407FBF0044029B /* ManagedObjectInstanceProvider.m in Sources */,
+				E43192C71D407FBF0044029B /* CommonLoggingProvider.m in Sources */,
 				E4E6EB5D1D39ABE10036A89D /* webservices.xcdatamodeld in Sources */,
 				E4E6EB511D39ABE10036A89D /* main.m in Sources */,
 				E4E6EB711D39B0250036A89D /* WebServices.m in Sources */,
+				E43192C91D407FBF0044029B /* ObjectMapper.m in Sources */,
 				E4E6EB741D39B03A0036A89D /* Parser.m in Sources */,
+				E43192C81D407FBF0044029B /* InCodeMappingProvider.m in Sources */,
+				E43192C41D407FBF0044029B /* NSObject+ObjectMapper.m in Sources */,
+				E43192C31D407FBF0044029B /* NSDictionary+ObjectMapper.m in Sources */,
+				E43192CA1D407FBF0044029B /* ObjectMappingInfo.m in Sources */,
+				E43192C61D407FBF0044029B /* ObjectInstanceProvider.m in Sources */,
 				E4E6EB6E1D39B0130036A89D /* Declarations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +457,7 @@
 				E4E6EB681D39ABE10036A89D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
